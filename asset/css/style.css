@@ -11,6 +11,9 @@
     --footer-bg: #333333;
     --page-bg: #ffffff;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 /*utilities*/
 .container{
     width: 100%;
@@ -19,6 +22,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -1rem;
 }
 .d-md-block{
     display: block;
@@ -26,7 +30,22 @@
 .d-md-none{
     display: none;
 }
-
+[class^='col-']
+{
+    padding: 0 1rem;
+}
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+.col-6{
+    width: calc(100% / 12 * 6);
+}
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+.col-12{
+    width: calc(100% / 12 * 12);
+}
 /*end utilities*/
 /*Mobile First*/
 header nav{
@@ -51,4 +70,45 @@ header nav{
 .setting{
     fill: white;
     font-size: 24px;
+}
+
+
+main{
+
+}
+.card-12{
+    fill: #0084fd;
+    margin: 2rem 2rem;
+    background-color: #b5ddff;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem 1rem 0 1rem;
+}
+h4{
+    color: #0084fd;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+p{
+    line-height: 32px;
+    padding: 1rem 0 1rem 0;
+    margin: 0 0 4rem 0;
+}
+.store{
+
+    fill: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0084fd;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+.phone{
+    width: 90%;
+    padding-top: 4rem;
+}
+.icon{
+    font-size: 100px;
 }
