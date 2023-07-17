@@ -178,6 +178,8 @@ h2{
 
 .fourth{
     background-color: #9792e4;
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
 .card-12-bottom{
     background-color: #ffffff;
@@ -202,4 +204,44 @@ h2{
     padding: 0.5rem 3rem;
     margin-top: 2rem;
     border-radius: 1rem;
+}
+
+
+.fifth{
+    margin-bottom: 4rem;
+}
+.card-12-end{
+    margin: 0 auto;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+.about{
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+.quote{
+    fill: #9792e4;
+    font-size: 50px;
+    position: relative;
+    bottom: 150px;
+    right: 60px;
+}
+.worker{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.curriculum{
+    background-color: #9792e4;
+    padding: 0.5rem 1.5rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 2rem;
+}
+.linkedin{
+    fill: #ffffff;
+    font-size: 20px;
+    padding-right: 20px;
 }
