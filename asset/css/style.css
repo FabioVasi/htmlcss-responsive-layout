@@ -10,6 +10,7 @@
     --free-color: #fdc15f;
     --footer-bg: #333333;
     --page-bg: #ffffff;
+    --get-started-color: #c7c5f1;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -244,4 +245,44 @@ h2{
     fill: #ffffff;
     font-size: 20px;
     padding-right: 20px;
+}
+
+
+.sixth{
+    background-color: #9792e4;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+.started{
+    padding-top: 3rem;
+    padding-bottom: 0;
+    color: #c7c5f1;
+    font-size: 1rem;
+}
+.price{
+    color: #ffffff;
+    padding: 2rem 0;
+}
+h1{
+    color: #fdc15f;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+.beta{
+    color: #ffffff;
+    padding: 0 2rem;
+    padding-bottom: 4rem;
+}
+.register{
+    color: #9792e4;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+}
+.copyright{
+    color: #ffffff;
+    padding: 2rem 4rem;
 }
