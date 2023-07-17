@@ -286,3 +286,15 @@ h1{
     color: #ffffff;
     padding: 2rem 4rem;
 }
+
+
+footer{
+    background-color: #333333;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 4rem;
+}
+.lorem{
+    padding: 3rem 2rem;
+    line-height: 24px;
+}
