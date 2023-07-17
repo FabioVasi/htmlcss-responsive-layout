@@ -76,6 +76,9 @@ header nav{
 main{
 
 }
+.first{
+
+}
 .card-12{
     fill: #0084fd;
     margin: 2rem 2rem;
@@ -104,9 +107,42 @@ p{
     font-weight: bold;
 }
 .phone{
-    width: 90%;
     padding-top: 4rem;
 }
 .icon{
     font-size: 100px;
+}
+.secondth{
+    background-color: #9792e4;
+}
+.card-12-left{
+    color: white;
+    margin: 2rem 2rem;
+    text-align: center;
+    padding: 2rem 1rem 0 1rem;
+}
+h3{
+    font-size: 28px;
+    padding: 2rem 0;
+}
+.card-12-right{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    margin: 2rem 2rem;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+}
+em{
+    line-height: 32px;
+    padding: 1rem 0 1rem 0;
+}
+.arrow{
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #9792e4;
+    margin-bottom: 1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
