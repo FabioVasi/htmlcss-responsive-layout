@@ -1,3 +1,4 @@
+/*Reset rules and color root*/
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@
     --page-bg: #ffffff;
     --get-started-color: #c7c5f1;
 }
+/*body font connection*/
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -50,6 +52,7 @@ body{
 }
 /*end utilities*/
 /*Mobile First*/
+/*Header start*/
 header nav{
     background-color: #0084fd;
     height: 80px;
@@ -81,11 +84,12 @@ header{
     fill: white;
     font-size: 32px;
 }
-
-
+/*Header end*/
+/*Main start*/
 main{
 
 }
+/*Section 1*/
 .first{
     margin-bottom: 4rem;
 }
@@ -121,6 +125,8 @@ p{
 .icon{
     font-size: 100px;
 }
+/*Section 1 end*/
+/*Section 2*/
 .second{
     background-color: #9792e4;
     padding-bottom: 4rem;
@@ -158,8 +164,8 @@ em{
     height: 50px;
     border-radius: 50%;
 }
-
-
+/*Section 2 end*/
+/*Section 3*/
 .third{
     margin-bottom: 4rem;
 }
@@ -184,8 +190,8 @@ h2{
     color: #ffffff;
     line-height: 32px;
 }
-
-
+/*Section 3 end*/
+/*Section 4*/
 .fourth{
     background-color: #9792e4;
     padding-bottom: 3rem;
@@ -214,8 +220,8 @@ h2{
     margin-top: 2rem;
     border-radius: 1rem;
 }
-
-
+/*Section 4 end*/
+/*Section 5*/
 .fifth{
     margin-bottom: 4rem;
 }
@@ -254,8 +260,8 @@ h2{
     font-size: 20px;
     padding-right: 20px;
 }
-
-
+/*Section 5 end*/
+/*Section 6*/
 .sixth{
     background-color: #9792e4;
     padding-bottom: 4rem;
@@ -294,8 +300,9 @@ h1{
     color: #ffffff;
     padding: 2rem 4rem;
 }
-
-
+/*Section 6 end*/
+/*Main end*/
+/*Footer start*/
 footer{
     background-color: #333333;
     text-align: center;
@@ -306,9 +313,9 @@ footer{
     padding: 3rem 2rem;
     line-height: 24px;
 }
-
-
-
+/*Footer end*/
+/*Mobile first end*/
+/*Tablet view start*/
 @media screen and (min-width: 767px) {
     .container{
         max-width: 767px;
@@ -375,6 +382,8 @@ footer{
         font-size: 16px;
     }
 }
+/*Tablet view end*/
+/*Desktop view start*/
 @media screen and (min-width: 1169px) {
     header nav{
         background-color: #0084fd;
@@ -440,3 +449,4 @@ footer{
         margin-left: 1rem;
     }
 }
+/*Desktop view start*/

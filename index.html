@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <!--font/css connection and page title-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,19 +11,19 @@
     
 </head>
 <body class="debug">
-    <header>
+    <header> <!--Navigation bar with logo and info-->
         <nav>
             <div class="logo">
                 <img width="100px" src="./asset/img/logo.png" alt="">
             </div>
-            <div class="desktop_menu d-md-none d-block">
+            <div class="desktop_menu d-md-none d-block"> <!--menu visible only in desktop view-->
                 <a class="info" href="#">Planning</a>
                 <a class="info" href="#">Testimonials</a>
                 <a class="info" href="#">Features</a>
                 <a class="info" href="#">About Us</a>
                 <a class="start" href="#">Get Started</a>
             </div>
-            <div class="mobile_menu d-none">
+            <div class="mobile_menu d-none"> <!--bar menu visible only in in tablet and mobile view-->
                 <a href="#">
                     <svg class="setting" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
                 </a>
@@ -31,10 +31,10 @@
         </nav>
     </header>
     <main>
-        <section class="first">
+        <section class="first"> <!--features of the site-->
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-8"> <!--phone app-->
                         <div class="card-12 card-md-8 card-lg-8">
                             <div class="d-flex">
                                 <h4>Get a demo application</h4>
@@ -51,7 +51,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4"> <!--code-->
                         <div class="card-12 card-md-4">
                             <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z"/></svg>
                             <h4>Clean Code</h4>
@@ -60,7 +60,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4"> <!--design-->
                         <div class="card-12 card-md-4">
                             <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96c0 14.3-3.1 27.9-8.8 40.2L396 227.4c-23.7 25.3-54.2 44.1-88.5 53.6L256 192h0 0l-68 117.5c21.5 6.8 44.3 10.5 68.1 10.5c70.7 0 133.8-32.7 174.9-84c11.1-13.8 31.2-16 45-5s16 31.2 5 45C428.1 341.8 347 384 256 384c-35.4 0-69.4-6.4-100.7-18.1L98.7 463.7C94 471.8 87 478.4 78.6 482.6L23.2 510.3c-5 2.5-10.9 2.2-15.6-.7S0 501.5 0 496V440.6c0-8.4 2.2-16.7 6.5-24.1l60-103.7C53.7 301.6 41.8 289.3 31.2 276c-11.1-13.8-8.8-33.9 5-45s33.9-8.8 45 5c5.7 7.1 11.8 13.8 18.2 20.1l69.4-119.9c-5.6-12.2-8.8-25.8-8.8-40.2c0-53 43-96 96-96s96 43 96 96zm21 297.9c32.6-12.8 62.5-30.8 88.9-52.9l43.7 75.5c4.2 7.3 6.5 15.6 6.5 24.1V496c0 5.5-2.9 10.7-7.6 13.6s-10.6 3.2-15.6 .7l-55.4-27.7c-8.4-4.2-15.4-10.8-20.1-18.9L373 393.9zM256 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
                             <h4>Web Design</h4>
@@ -69,7 +69,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4"> <!--developement-->
                         <div class="card-12 card-md-4">
                             <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
                             <h4>Developement</h4>
@@ -78,7 +78,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">    
+                    <div class="col-12 col-md-4"> <!--branding-->
                         <div class="card-12 card-md-4">
                             <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M480 32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9L381.7 53c-48 48-113.1 75-181 75H192 160 64c-35.3 0-64 28.7-64 64v96c0 35.3 28.7 64 64 64l0 128c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V352l8.7 0c67.9 0 133 27 181 75l43.6 43.6c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V300.4c18.6-8.8 32-32.5 32-60.4s-13.4-51.6-32-60.4V32zm-64 76.7V240 371.3C357.2 317.8 280.5 288 200.7 288H192V192h8.7c79.8 0 156.5-29.8 215.3-83.3z"/></svg>
                             <h4>Branding</h4>
@@ -90,10 +90,10 @@
                 </div>
             </div>
         </section>
-        <section class="second">
+        <section class="second"> <!--planning and app developement-->
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6"> <!--planning-->
                         <div class="card-12-left">
                             <img width="100%" src="./asset/img/planning1.png" alt="">
                             <h3>Strategic Planning</h3>
@@ -102,7 +102,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6-right">
+                    <div class="col-12 col-lg-6-right"> <!--app developement-->
                         <div class="card-12-right card-lg-right">
                             <img class="developement" src="./asset/img/planning2.png" alt="">
                             <h3>App Developement</h3>
@@ -115,15 +115,15 @@
                 </div>
             </div>
         </section>
-        <section class="third">
-            <div class="container">
+        <section class="third"> <!--expert partners-->
+            <div class="container"> <!--testimonials-->
                 TESTIMONIALS
                 <h2>
                     We are committed expert partners
                 </h2>
                 We place huge value on strong relationships and have seen the benefit they bring  to our business. Customer feedback is vital in helping us to get it right.
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12"> <!--Nat R.-->
                         <div class="card-12-s3 card-md-12">
                             <img class="testimonials" src="./asset/img/testimonial1.jpg" alt="">
                             <div class="presentation">
@@ -132,7 +132,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12"> <!--Celia A.-->
                         <div class="card-12-s3 card-md-12">
                             <img class="testimonials" src="./asset/img/testimonial2.jpg" alt="">
                             <div class="presentation">
@@ -141,7 +141,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12"> <!--Bob R.-->
                         <div class="card-12-s3 card-md-12">
                             <img class="testimonials" src="./asset/img/testimonial3.jpg" alt="">
                             <div class="presentation">
@@ -154,13 +154,13 @@
             
             </div>
         </section>
-        <section class="fourth">
+        <section class="fourth"> <!--benefits illustration-->
             <div class="container">
                 <h2 style="color: #ffffff;">
                     Benefits of working with us
                 </h2>
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4"> <!--quality-->
                         <div class="card-12-bottom">
                             <h3 class="number">01</h3>
                             <h4 class="repertoire">High Quality</h4>
@@ -172,7 +172,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12  col-md-6 col-lg-4">
+                    <div class="col-12  col-md-6 col-lg-4"> <!--creativity-->
                         <div class="card-12-bottom">
                             <h3 class="number">02</h3>
                             <h4 class="repertoire">Creative Team</h4>
@@ -184,7 +184,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4"> <!--results-->
                         <div class="card-12-bottom">
                             <h3 class="number">03</h3>
                             <h4 class="repertoire">Amazing Results</h4>
@@ -196,7 +196,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4"> <!--price-->
                         <div class="card-12-bottom">
                             <h3 class="number">04</h3>
                             <h4 class="repertoire">Best Pricing</h4>
@@ -208,7 +208,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4"> <!--innovation-->
                         <div class="card-12-bottom">
                             <h3 class="number">05</h3>
                             <h4 class="repertoire">Innovation</h4>
@@ -220,7 +220,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4"> <!--support-->
                         <div class="card-12-bottom">
                             <h3 class="number">06</h3>
                             <h4 class="repertoire">24/7 Support</h4>
@@ -235,11 +235,11 @@
                 </div>
             </div>
         </section>
-        <section class="fifth">
+        <section class="fifth"> <!--know us-->
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-8">
-                        <div class="card-12-end">
+                        <div class="card-12-end"> <!--Some info for the reader-->
                             <h2 class="about">
                                 About Us
                             </h2>
@@ -251,14 +251,14 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4"> <!--collaborator-->
                         <div class="card-12-end card-sm-4 card-lg-4">
                             <img class="worker" src="./asset/img/about.jpg" alt="">
                             <svg class="quote" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
                             <h3 style="color: #9792e4;">
                                 I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.
                             </h3>
-                            <a class="curriculum" href="#">
+                            <a class="curriculum" href="#"> <!--curriculum vitae-->
                                 <svg class="linkedin" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
                                 Find me on linkedin
                             </a>
@@ -267,22 +267,22 @@
                 </div>
             </div>
         </section>
-        <section class="sixth">
+        <section class="sixth"> <!--start your collaboration-->
             <h4 class="started">GET STARTED</h4>
             <h2 class="price">Simple, Transparent Pricing</h2>
-            <h1>It's Free!</h1>
+            <h1>It's Free!</h1> <!--gratis-->
             <p class="beta">
                 We're still in beta and we will be for awhile. As we add more functionality, we'll look into other plans with more controls.
             </p>
-            <a class="register"  href="#">
+            <a class="register"  href="#"> <!--start-->
                 Get started
             </a>
-            <p class="copyright">
+            <p class="copyright"> <!--Copyright and policy-->
                 Copyright 2021 Boolean &#9679; Classe XX &#9679; <a style="color: #ffffff;" href="#">Privacy policy</a>
             </p>
         </section>
     </main>
-    <footer>
+    <footer> <!--Footer-->
         <p class="lorem">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id odio ab nobis? Ab ea beatae, exercitationem cupiditate sequi culpa perferendis tempore corrupti, eligendi dicta nihil minima. Dolore rerum autem id!
         </p>
