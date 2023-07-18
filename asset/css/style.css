@@ -65,11 +65,16 @@ header{
 .info{
     color: white;
     text-decoration: none;
+    font-size: 20px;
+    padding-right: 1rem;
 }
 .start{
     color: black;
     text-decoration: none;
     background-color: white;
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 2rem;
 }
 .setting{
     fill: white;
@@ -364,5 +369,25 @@ footer{
     .linkedin{
         fill: #ffffff;
         font-size: 16px;
+    }
+}
+@media screen and (min-width: 1169px) {
+    .d-none{
+        display: none;
+    }
+    .d-block{
+        display: block;
+    }
+    .container{
+        max-width: 1169px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .card-lg-8{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .d-flex{
+        width: 50%;
     }
 }
