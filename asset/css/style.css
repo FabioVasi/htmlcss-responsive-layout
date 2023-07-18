@@ -61,6 +61,7 @@ header nav{
 }
 header{
     margin-bottom: 3rem;
+    width: 100%;
 }
 .info{
     color: white;
@@ -139,6 +140,9 @@ h3{
     border-radius: 1rem;
     text-align: center;
     padding: 2rem 1rem 1rem 1rem;
+}
+.developement{
+    width: 100%;
 }
 em{
     line-height: 32px;
@@ -372,6 +376,15 @@ footer{
     }
 }
 @media screen and (min-width: 1169px) {
+    header nav{
+        background-color: #0084fd;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 1rem;
+    }
     .d-none{
         display: none;
     }
@@ -389,5 +402,41 @@ footer{
     }
     .d-flex{
         width: 50%;
+    }
+    .col-lg-6{
+        width: calc(100% / 12 * 6);
+    }
+    .col-lg-6-right{
+        width: calc(100% / 12 * 6);
+        margin-top: 196px;
+    }
+    .card-lg-right{
+        width: 400px;
+        border-radius: 3rem;
+        padding: 1rem;
+        margin-left: 4rem;
+    }
+    .developement{
+        width: 70%;
+    }
+    h3{
+        padding: 1rem 1rem;
+    }
+    .presentation{
+        padding-right: 2rem;
+    }
+    .col-lg-4{
+        width: calc(100% / 12 * 4);
+    }
+    .worker{
+        margin-left: 1rem;
+        width: 250px;
+        height: 250px;
+    }
+    .quote{
+        left: -60px;
+    }
+    .curriculum{     
+        margin-left: 1rem;
     }
 }
