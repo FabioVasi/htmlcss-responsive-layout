@@ -24,7 +24,7 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem;
+    margin: 0 auto;
 }
 .d-md-block{
     display: block;
@@ -34,7 +34,7 @@ body{
 }
 [class^='col-']
 {
-    padding: 0 1rem;
+    padding: 2rem;
 }
 .col-4{
     width: calc(100% / 12 * 4);
@@ -59,6 +59,9 @@ header nav{
     align-items: center;
     padding: 0 1rem;
 }
+header{
+    margin-bottom: 3rem;
+}
 .info{
     color: white;
     text-decoration: none;
@@ -82,7 +85,6 @@ main{
 }
 .card-12{
     fill: #0084fd;
-    margin: 2rem 2rem;
     background-color: #b5ddff;
     border-radius: 1rem;
     text-align: center;
@@ -119,7 +121,6 @@ p{
 }
 .card-12-left{
     color: white;
-    margin: 2rem 2rem;
     text-align: center;
     padding: 2rem 1rem 0 1rem;
 }
@@ -130,7 +131,6 @@ h3{
 .card-12-right{
     background-color: #ffffff;
     border-radius: 1rem;
-    margin: 2rem 2rem;
     text-align: center;
     padding: 2rem 1rem 1rem 1rem;
 }
@@ -166,7 +166,6 @@ h2{
 }
 .card-12-s3{
     background-color: #9792e4;
-    margin: 2rem 2rem;
     border-radius: 2rem;
     padding: 2rem 1rem;
     text-align: center;
@@ -184,7 +183,6 @@ h2{
 }
 .card-12-bottom{
     background-color: #ffffff;
-    margin: 2rem 2rem;
     border-radius: 2rem;
     padding: 2rem 2rem;
     text-align: left;
@@ -297,4 +295,10 @@ footer{
 .lorem{
     padding: 3rem 2rem;
     line-height: 24px;
+}
+
+
+
+@media screen and (min-width: 767px) {
+    
 }
