@@ -34,7 +34,7 @@ body{
 }
 [class^='col-']
 {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
 }
 .col-4{
     width: calc(100% / 12 * 4);
@@ -339,5 +339,30 @@ footer{
     }
     .presentation{
         padding-left: 2rem;
+    }
+    .worker{
+        margin-top: 3rem;
+        width: 220px;
+        height: 220px;
+    }
+    .quote{
+        position: relative;
+        bottom: 200px;
+        left: 180px;
+    }
+    .card-sm-4{
+        padding: 0
+    }
+    .curriculum{
+        background-color: #9792e4;
+        padding: 0.5rem 0.5rem;
+        font-size: 16px;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 2rem;
+    }
+    .linkedin{
+        fill: #ffffff;
+        font-size: 16px;
     }
 }
